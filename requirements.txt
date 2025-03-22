@@ -1,0 +1,9 @@
+streamlit
+crewAI
+langchain_groq
+langchain_community
+fpdf
+scikit-learn
+faiss-cpu
+numpy
+python-dotenv
