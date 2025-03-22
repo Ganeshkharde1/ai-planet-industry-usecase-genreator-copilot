@@ -7,6 +7,9 @@
 
 This project generates industry research, AI use cases, and datasets based on a company name. The generated reports can be downloaded as PDFs, and the application features a chat interface for asking questions based on the generated reports.
 
+
+<img width="900" src="https://github.com/user-attachments/assets/1b5fbf1f-88c1-4611-a878-240484931646"> 
+
 ![Screenshot 2025-03-22 210859](https://github.com/user-attachments/assets/197c07e5-34b3-440d-9022-bec682d658fc)
 ![Screenshot 2025-03-22 211041](https://github.com/user-attachments/assets/e9571960-35e2-4149-96a1-32c1e1e99473)
 
