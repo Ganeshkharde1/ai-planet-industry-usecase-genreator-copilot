@@ -11,6 +11,9 @@ import numpy as np
 import pickle
 from dotenv import load_dotenv
 
+# Get the port from the environment (Cloud Run provides PORT=8080)
+PORT = int(os.getenv("PORT", 8080))
+
 # Load environment variables from .env file
 load_dotenv()
 
@@ -238,3 +241,6 @@ if allfile:
         with st.sidebar.chat_message("assistant"):
             st.sidebar.write(response.content)
 
+# Run Streamlit on the correct port
+if __name__ == "__main__":
+    st.run(host="0.0.0.0", port=PORT)
