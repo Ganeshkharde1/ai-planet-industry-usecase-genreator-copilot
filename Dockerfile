@@ -13,4 +13,6 @@ RUN pip install -r requirements.txt
 EXPOSE 8080
 
 # Run app.py when the container launches
-CMD python final.py
+# CMD python -m streamlit run final.py
+CMD streamlit run final.py
+
