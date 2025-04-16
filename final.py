@@ -20,6 +20,7 @@ load_dotenv()
 # Access the API key
 TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+litellm.api_key = os.getenv("GROQ_API_KEY")
 
 # Set API Key in os,
 # If fails, un-comment it. Commented for GCP cloud run
