@@ -243,5 +243,5 @@ if allfile:
             st.sidebar.write(response.content)
 
 # Run Streamlit on the correct port
-if __name__ == "__main__":
-    st.run(host="0.0.0.0", port=PORT)
+# if __name__ == "__main__":
+#     st.run(host="0.0.0.0", port=PORT)
