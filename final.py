@@ -21,8 +21,9 @@ load_dotenv()
 TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
-# Set API Key in os
-os.environ['GROQ_API_KEY'] = GROQ_API_KEY
+# Set API Key in os,
+# If fails, un-comment it. Commented for GCP cloud run
+# os.environ['GROQ_API_KEY'] = GROQ_API_KEY
 
 # Initialize LLM and Search API
 llm = ChatGroq(temperature=0.7, model_name="groq/llama3-8b-8192", api_key=GROQ_API_KEY)
