@@ -10,7 +10,7 @@ COPY . ./
 RUN pip install -r requirements.txt
 
 # Copy the .env file
-COPY .env .env
+# COPY .env .env
 # Make port 8080 available to the world outside this container
 EXPOSE 8080
 
