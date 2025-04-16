@@ -16,6 +16,7 @@ EXPOSE 8080
 
 # Run app.py when the container launches
 # CMD python -m streamlit run final.py
-CMD streamlit run final.py --server.port 8080 --server.address 0.0.0.0 --browser.serverAddress 0.0.0.0
+# CMD streamlit run final.py --server.port 8080 --server.address 0.0.0.0 --browser.serverAddress 0.0.0.0
+CMD ["streamlit", "run", "final.py", "--server.port=8080", "--server.address=0.0.0.0", "--server.enableCORS=false"]
 
 
